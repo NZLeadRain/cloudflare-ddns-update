@@ -1,2 +1,2 @@
 #Run the cloudflare ddns updater script
-*/30 * * * * root sh /scripts/cloudflare-ddns-update.sh 1>> /var/log/ddns-update.log 2>> /var/log/ddns-update.log
+*/15 * * * * root sh /scripts/cloudflare-ddns-update.sh 1>> /var/log/ddns-update.log 2>> /var/log/ddns-update.log
